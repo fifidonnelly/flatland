@@ -1,3 +1,14 @@
+var square = document.getElementById('square');
+
+function changeColour(colour) {
+    square.background = colour ;
+}
+
+square.addEventListener('click', (event) => changeColour ('green'))
+
+
+
+
 
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
